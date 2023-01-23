@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_North America</name>
+   <name>span_Asia</name>
    <tag></tag>
-   <elementGuidId>e592136b-15e5-4d78-aa58-0d2fa6086c0f</elementGuidId>
+   <elementGuidId>6b52a6c6-219c-48d6-a1cb-2839f8096ff5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>span.av-inner-tab-title</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='av-tab-section-1']/div/div/a/span[2]/span</value>
+         <value>//div[@id='av-tab-section-1']/div/div/a[3]/span[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>cf223c42-506b-49ba-8c7f-35a02d8bbf0e</webElementGuid>
+      <webElementGuid>bfc400b5-8905-4893-a6eb-21d4d807e888</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,78 +30,86 @@
       <name>class</name>
       <type>Main</type>
       <value>av-inner-tab-title</value>
-      <webElementGuid>65619654-5e30-4e11-8f9f-5e4c5df7c2d2</webElementGuid>
+      <webElementGuid>33edccaf-5be2-4d8f-845a-6e28f15c0e43</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>North America</value>
-      <webElementGuid>dce2d06f-856d-415e-a7e8-ddc9470ad43f</webElementGuid>
+      <value>Asia</value>
+      <webElementGuid>9b65346b-7ab6-4896-9eee-4d850ad3eafe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;av-tab-section-1&quot;)/div[@class=&quot;av-tab-section-outer-container&quot;]/div[@class=&quot;av-tab-section-tab-title-container avia-tab-title-padding-small&quot;]/a[@class=&quot;av-section-tab-title av-tab-no-icon av-tab-with-image noHover av-active-tab-title&quot;]/span[@class=&quot;av-outer-tab-title&quot;]/span[@class=&quot;av-inner-tab-title&quot;]</value>
-      <webElementGuid>63e0cbcf-0b2e-48f6-8fa0-5cd9be536131</webElementGuid>
+      <value>id(&quot;av-tab-section-1&quot;)/div[@class=&quot;av-tab-section-outer-container&quot;]/div[@class=&quot;av-tab-section-tab-title-container avia-tab-title-padding-small&quot;]/a[@class=&quot;av-section-tab-title av-tab-no-icon av-tab-with-image noHover&quot;]/span[@class=&quot;av-outer-tab-title&quot;]/span[@class=&quot;av-inner-tab-title&quot;]</value>
+      <webElementGuid>635b5998-5578-448d-bf0f-9a2507d74ebe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='av-tab-section-1']/div/div/a/span[2]/span</value>
-      <webElementGuid>9c5377f2-1f6b-44ee-b6da-33adfb0c665a</webElementGuid>
+      <value>//div[@id='av-tab-section-1']/div/div/a[3]/span[2]/span</value>
+      <webElementGuid>22ad5f64-1893-4eb1-bf41-97dafd789ac6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Locations'])[2]/following::span[5]</value>
-      <webElementGuid>f815efab-de1a-44f1-b96a-36989c5b446d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Central America'])[1]/following::span[5]</value>
+      <webElementGuid>44f34f40-0bda-4b10-a6e5-4c693dbe5e09</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Central America'])[1]/preceding::span[4]</value>
-      <webElementGuid>0383a12c-957b-4841-afd6-57c44e253337</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='North America'])[1]/following::span[10]</value>
+      <webElementGuid>1dd9300a-47fd-484d-bc3a-dbcef5cdc1de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Asia'])[1]/preceding::span[9]</value>
-      <webElementGuid>7f76884a-5fe7-4d2a-9f0f-50bd7fe60d91</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='United States'])[1]/preceding::span[5]</value>
+      <webElementGuid>4a3403c0-7336-4a99-bb2f-2c88336299b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='North America']/parent::*</value>
-      <webElementGuid>12cbb86c-4948-4191-a637-5c1123cc7e69</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Roy, Utah – Headquarters'])[1]/preceding::span[7]</value>
+      <webElementGuid>1007dea6-89a6-4dd7-a355-877cac8c354d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Asia']/parent::*</value>
+      <webElementGuid>f0659323-5b81-4cc3-9027-afdb50537101</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span[2]/span</value>
-      <webElementGuid>6875f35c-290d-4ae4-a115-a3d4b1532fc9</webElementGuid>
+      <value>//a[3]/span[2]/span</value>
+      <webElementGuid>2cde8a39-27b3-404e-b830-6c896cd319c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'North America' or . = 'North America')]</value>
-      <webElementGuid>4ad1917e-a878-4f51-825a-7ecb26142d43</webElementGuid>
+      <value>//span[(text() = 'Asia' or . = 'Asia')]</value>
+      <webElementGuid>ab641f94-0bd6-4e52-add8-9b3686f364e8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

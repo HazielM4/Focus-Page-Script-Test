@@ -35,5 +35,13 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/PageScriptObjects/P
 
 WebUI.click(findTestObject('Object Repository/PageScriptObjects/Page_Focus Services  Beyond Expectations/span_Locations'))
 
-WebUI.verifyLinksAccessible([])
+WebUI.verifyLinksAccessible(['https://www.focusservices.com/locations/#north-america'])
+
+WebUI.click(findTestObject('Object Repository/PageScriptObjects/Page_Locations  Focus Services/span_Central America'))
+
+WebUI.verifyTextPresent('El Salvador & Nicaragua', false)
+
+WebUI.click(findTestObject('Object Repository/PageScriptObjects/Page_Locations  Focus Services/span_Asia'))
+
+WebUI.verifyTextPresent('Bacolod City, Philippines', false)
 
