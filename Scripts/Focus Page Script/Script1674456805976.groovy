@@ -28,3 +28,12 @@ WebUI.sendKeys(findTestObject('Object Repository/PageScriptObjects/Page_Google/i
 WebUI.verifyElementPresent(findTestObject('Object Repository/PageScriptObjects/Page_Focus Services - Buscar con Google/cite_httpswww.focusservices.com'), 
     0)
 
+WebUI.click(findTestObject('Object Repository/PageScriptObjects/Page_Focus Services - Buscar con Google/h3_Focus Services  Beyond Expectations'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/PageScriptObjects/Page_Focus Services  Beyond Expectations/a_Now Hiring'), 
+    0)
+
+WebUI.click(findTestObject('Object Repository/PageScriptObjects/Page_Focus Services  Beyond Expectations/span_Locations'))
+
+WebUI.verifyLinksAccessible([])
+
